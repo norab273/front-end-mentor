@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --color-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --color-soft-red: hsl(14, 88%, 65%);
+  --color-soft-violet: hsl(273, 75%, 66%);
+  --color-soft-blue: hsl(240, 73%, 65%);
+  --color-very-dark-greyish-blue: hsl(237, 12%, 33%);
+  --color-dark-greyish-blue: hsl(240, 6%, 50%);
+  --color-light-greyish-blue: hsl(240, 5%, 91%);
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.container {
+  height: 65vh;
+  width: 80%;
+  /* border: 1px solid blue; */
+  background: white;
+  border-radius: 5%;
+}
+
+.box {
+  /* border: 1px solid green; */
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+}
+
+img {
+  margin-top: -11rem;
+}
+
+.shadow {
+  margin-top: -9rem;
+  position: relative;
+  right: -2rem;
+}
+
+h1 {
+  color: hsl(237, 12%, 33%);
+  padding: 1rem;
+}
+
+summary {
+  padding: 1.3em;
+  cursor: pointer;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  list-style-image: url(images/icon-arrow-down.svg);
+  position: relative;
+}
+
+summary::-webkit-details-marker {
+  background: url(images/icon-arrow-down.svg);
+  color: transparent;
+  position: absolute;
+  right: 0;
+}
+
+.details[open] summary:after {
+  font-weight: 700;
+}
+
+/* .attribution {
+  font-size: 11px;
+  /* text-align: center; */
+/* }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
