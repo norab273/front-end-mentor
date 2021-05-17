@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,29 +10,42 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <title>Frontend Mentor | FAQ Accordion Card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <div class="container">
       <div class="illustration">
         <img
-          src="images/illustration-woman-online-mobile.svg"
+          class="woman-mobile"
+          src="./css/images/illustration-woman-online-mobile.svg"
           alt="women reading faq on a screen"
         />
-        <img class="shadow" src="images/bg-pattern-mobile.svg" alt="shadow" />
+        <img
+          class="shadow-mobile"
+          src="./css/images/bg-pattern-mobile.svg"
+          alt="shadow"
+        />
+        <img
+          class="pattern-desktop"
+          src="./css/images/bg-pattern-desktop.svg"
+          alt="pattern"
+        />
+
+        <img
+          class="woman-desktop"
+          src="./css/images/illustration-woman-online-desktop.svg"
+          alt="women reading faq on a screen"
+        />
       </div>
 
       <div class="box">
         <h1 class="box__header">FAQ</h1>
-
         <details>
           <summary class="questions">
             How many team members can I invite?
@@ -45,7 +57,7 @@
             </p>
           </div>
         </details>
-
+        <hr />
         <details>
           <summary class="questions">
             What is the maximum file upload size?
@@ -57,7 +69,7 @@
             </p>
           </div>
         </details>
-
+        <hr />
         <details>
           <summary class="questions">How do I reset my password?</summary>
 
@@ -68,7 +80,7 @@
             </p>
           </div>
         </details>
-
+        <hr />
         <details>
           <summary class="questions">Can I cancel my subscription?</summary>
           <div class="answers">
@@ -78,7 +90,7 @@
             </p>
           </div>
         </details>
-
+        <hr />
         <details>
           <summary class="questions">
             Do you provide additional support?
