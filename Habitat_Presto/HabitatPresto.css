@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f6f6f6;
+  color: #616161;
+}
+
+#brand {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.6rem;
+  color: #474747;
+}
+
+.nav-button-pro {
+  color: white;
+  border: 1px solid #06dbc4;
+  background-color: #06dbc4;
+  border-radius: 50em;
+  background-clip: padding-box;
+}
+
+.nav-button-pro:hover {
+  color: #06dbc4;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50em;
+  background-clip: padding-box;
+}
+
+.nav-button-pro-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-link {
+  color: #adadae;
+}
+
+.style--italic {
+  font-style: italic;
+}
+
+.style--orange {
+  color: #e45a26;
+}
+
+.style--grey {
+  color: grey;
+}
+
+.style--underlined {
+  text-decoration: underline;
+}
+
+.big-container {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+h1 {
+  font-family: "Open Sans Bold", sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: medium;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.appel {
+  color: #ff580c;
+  border: 1px solid #ff580c;
+  background-color: transparent;
+  border-radius: 50em;
+  background-clip: padding-box;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.appel:hover {
+  color: white;
+  border: 1px solid #ff580c;
+  background-color: #ff580c;
+  border-radius: 50em;
+  background-clip: padding-box;
+}
+
+.suivant {
+  color: white;
+  border: 1px solid #ff580c;
+  background-color: #ff580c;
+  border-radius: 50em;
+  background-clip: padding-box;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.suivant:hover {
+  color: #ff580c;
+  border: 1px solid #ff580c;
+  background-color: transparent;
+  border-radius: 50em;
+  background-clip: padding-box;
+}
+
+.estimation-details {
+  background-color: #173948;
+  color: white;
+}
+
+.estimation-form {
+  background-color: white;
+}
+
+#regForm {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+.step {
+  font-weight: bold;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+.computer {
+  min-width: 400px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.large_numbering {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.style--large-orange {
+  font-size: 50px;
+  color: #e45a26;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.findClients {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gratuit {
+  color: #ffffff;
+  background-color: #06dbc4;
+  font-weight: bold;
+}
+
+.bottom-half-right-title {
+  font-weight: bold;
+  font-size: large;
+}
